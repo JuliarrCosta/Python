@@ -80,7 +80,7 @@ class AgendaTelefonica:
     def buscarContato(self, nome):
         for contato in self.AgendaTelefonica:
             if self.nome == nome:
-                print(f'Nome: {contato.nome} Número: {contato.numero}')
+                print(f'Nome: {contato.nome} \n Número: {contato.numero}')
             else:
                 print(f'Contato não encontrado')
      

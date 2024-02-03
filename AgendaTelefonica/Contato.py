@@ -4,5 +4,5 @@ class contato:
         self.numero = numero
     
     def imprimir_contato(self):
-        print(f"Nome: {self.nome}, Número: {self.numero}")
+        print(f"Nome: {self.nome} \n Número: {self.numero}")
 
